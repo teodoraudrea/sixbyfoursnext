@@ -8,11 +8,14 @@ import NavBar from '../src/Components/NavBar';
 export default function Index() {
   return (
     <div>
-    <NavBar/>
-      <Box sx={{ my: 4 }}>
-        <AlbumSelection/>
-        <Copyright />
+    {/* <NavBar/> */}
+    <Box>
+      <NavBar/>
+      <Box sx={{ my: 4 }} sx={{ marginTop: '100px', marginBottom: '40px'}} >
+        <AlbumSelection />
       </Box>
+      <Copyright />
+    </Box>
     </div>
   );
 }
