@@ -16,19 +16,19 @@ export default function ButtonAppBar() {
         <Toolbar>
           <IconButton
             size="large"
-            color="inherit"
+            color="secondary"
             aria-label="home"
             sx={{ mr: 2 }}
             component={Link} noLinkStyle href="/"
           >
             <Camera/>
           </IconButton>
-          <Typography variant="h4" component="div" sx={{ flexGrow: 1, textAlign: 'center' }}>
+          <Typography color="secondary" variant="h4" component="div" sx={{ flexGrow: 1, textAlign: 'center' }}>
             6BY4S
           </Typography>
           <IconButton
             size="large"
-            color="inherit"
+            color="secondary"
             aria-label="modal"
             sx={{ mr: 2 }}
             component={Link} noLinkStyle href="/"
