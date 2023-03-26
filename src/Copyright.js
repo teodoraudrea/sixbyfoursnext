@@ -5,7 +5,7 @@ import { AppBar } from '@mui/material';
 
 export default function Copyright() {
   return (
-    <AppBar position="static" color="primary" sx={{ top: 'auto', bottom: 0, paddingTop: '100px', paddingBottom: '40px'}}>
+    <AppBar position="static" color="primary" sx={{ top: 'auto', bottom: 0, paddingTop: '20px', paddingBottom: '20px'}}>
     <Typography variant="h6" color="secondary" align="center" sx={{ flexGrow: 1, textAlign: 'center' }}>
       {'Copyright © '}
       <MuiLink color="secondary" href="https://www.linkedin.com/in/teodora-udrea-620a9a11a/">
