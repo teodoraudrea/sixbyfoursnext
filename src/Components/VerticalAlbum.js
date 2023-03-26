@@ -1,4 +1,4 @@
-import { ImageList, ImageListItem } from "@mui/material";
+import { ImageList, ImageListItem, Grid } from "@mui/material";
 
 export default function VerticalAlbum() {
     const itemData = [
@@ -52,19 +52,25 @@ export default function VerticalAlbum() {
         },
       ];
     return(
-        <div className="App">
-      <ImageList variant="masonry" cols={3} gap={0}>
-  {itemData.map((item) => (
-    <ImageListItem key={item.img}>
-      <img
-        src={`${item.img}?w=248&fit=crop&auto=format`}
-        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-        alt={item.title}
-        loading="lazy"
-      />
-    </ImageListItem>
-  ))}
+        <div className="ColourLandscapeAlbum">
+        <Grid container spacing={2}>
+          <Grid item xs={1}></Grid>
+          <Grid item xs={10}>
+    <ImageList variant="masonry" cols={2} gap={4}>
+{itemData.map((item) => (
+  <ImageListItem key={item.img}>
+    <img
+      src={`${item.img}?w=248&fit=crop&auto=format`}
+      srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+      alt={item.title}
+      loading="lazy"
+    />
+  </ImageListItem>
+))}
 </ImageList>
-    </div>
+</Grid>
+<Grid item xs={1}></Grid>
+</Grid>
+  </div>
     )
 };

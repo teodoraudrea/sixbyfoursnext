@@ -4,7 +4,7 @@ import Link from '../Link';
 
 export default function AlbumSelection() {
   return (
-    <div className="LandingPage">
+    <div className="LandingPage" sx={{ marginTop: '64px' }}>
      <Grid container>
       <Grid item xs={1}/>
       <Grid item xs={10}>

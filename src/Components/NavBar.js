@@ -12,22 +12,29 @@ import Link from '../Link';
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="sticky">
+      <AppBar position="fixed">
         <Toolbar>
           <IconButton
             size="large"
-            edge="start"
             color="inherit"
-            aria-label="menu"
+            aria-label="home"
             sx={{ mr: 2 }}
             component={Link} noLinkStyle href="/"
           >
             <Camera/>
           </IconButton>
-          <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h4" component="div" sx={{ flexGrow: 1, textAlign: 'center' }}>
             6BY4S
           </Typography>
-          <Button color="inherit"><ShoppingBag/></Button>
+          <IconButton
+            size="large"
+            color="inherit"
+            aria-label="modal"
+            sx={{ mr: 2 }}
+            component={Link} noLinkStyle href="/"
+          >
+            <ShoppingBag/>
+          </IconButton>
         </Toolbar>
       </AppBar>
     </Box>
