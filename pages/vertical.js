@@ -6,20 +6,14 @@ import Button from '@mui/material/Button';
 import ProTip from '../src/ProTip';
 import Link from '../src/Link';
 import Copyright from '../src/Copyright';
+import VerticalAlbum from '../src/Components/VerticalAlbum';
+import NavBar from '../src/Components/NavBar';
 
 export default function Vertical() {
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Material UI - Next.js example
-        </Typography>
-        <Button component={Link} noLinkStyle href="/">
-          Go to the main page
-        </Button>
-        <ProTip />
-        <Copyright />
-      </Box>
-    </Container>
+    <>
+    <NavBar/>
+    <VerticalAlbum/>
+    </>
   );
 }

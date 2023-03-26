@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Camera, ShoppingBag } from '@mui/icons-material';
+import Link from '../Link';
 
 export default function ButtonAppBar() {
   return (
@@ -19,6 +20,7 @@ export default function ButtonAppBar() {
             color="inherit"
             aria-label="menu"
             sx={{ mr: 2 }}
+            component={Link} noLinkStyle href="/"
           >
             <Camera/>
           </IconButton>
