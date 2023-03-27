@@ -8,7 +8,6 @@ import NavBar from '../src/Components/NavBar';
 export default function Index() {
   return (
     <div>
-    {/* <NavBar/> */}
     <Box>
       <NavBar/>
       <Box sx={{ my: 4 }} sx={{ marginTop: '100px', marginBottom: '40px'}} >

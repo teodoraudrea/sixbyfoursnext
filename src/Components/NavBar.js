@@ -8,6 +8,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Camera, ShoppingBag } from '@mui/icons-material';
 import Link from '../Link';
+import ProductsModal from './ProductsModal';
 
 export default function ButtonAppBar() {
   return (
@@ -26,7 +27,8 @@ export default function ButtonAppBar() {
           <Typography color="secondary" variant="h4" component="div" sx={{ flexGrow: 1, textAlign: 'center' }}>
             6BY4S
           </Typography>
-          <IconButton
+          <ProductsModal/>
+          {/* <IconButton
             size="large"
             color="secondary"
             aria-label="modal"
@@ -34,7 +36,7 @@ export default function ButtonAppBar() {
             component={Link} noLinkStyle href="/"
           >
             <ShoppingBag/>
-          </IconButton>
+          </IconButton> */}
         </Toolbar>
       </AppBar>
     </Box>
