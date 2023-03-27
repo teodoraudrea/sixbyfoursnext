@@ -62,6 +62,7 @@ export default function ProductsModal() {
           <Typography id="modal-modal-title" variant="h6" component="h2">
             35mm film selection:
           </Typography>
+          <Divider/>
           <Typography id="modal-modal-description" sx={{ mt: 6 }}>
           {products.slice(3, 6).map((product) => (
               <div key={product.name}>
