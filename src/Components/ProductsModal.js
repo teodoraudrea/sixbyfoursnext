@@ -63,7 +63,7 @@ export default function ProductsModal() {
             35mm film selection:
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 6 }}>
-          {products.slice(0, 3).map((product) => (
+          {products.slice(3, 6).map((product) => (
               <div key={product.name}>
                 <img src={product.image} alt={product.name} style={{ width: '50px' }} />
                 <a href={product.link} style={{ textDecoration: 'none' , color: '#251b24'}}>
