@@ -24,19 +24,10 @@ export default function ButtonAppBar() {
           >
             <Camera/>
           </IconButton>
-          <Typography color="secondary" variant="h4" component="div" sx={{ flexGrow: 1, textAlign: 'center' }}>
-            6BY4S
+          <Typography color="white" variant="h4" component="div" sx={{ flexGrow: 1, textAlign: 'center' }}>
+            Six by Four's
           </Typography>
           <ProductsModal/>
-          {/* <IconButton
-            size="large"
-            color="secondary"
-            aria-label="modal"
-            sx={{ mr: 2 }}
-            component={Link} noLinkStyle href="/"
-          >
-            <ShoppingBag/>
-          </IconButton> */}
         </Toolbar>
       </AppBar>
     </Box>
