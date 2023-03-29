@@ -22,7 +22,7 @@ const style = {
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'af4413fdf4msh2aae4ffc5484f38p10f532jsndf809ae7083a',
+		'X-RapidAPI-Key': '6d76c6a9femshbaeafff2ad6e231p1c4f3fjsn026329ae67cf',
 		'X-RapidAPI-Host': 'amazon-merchant-data.p.rapidapi.com'
 	}
 };
