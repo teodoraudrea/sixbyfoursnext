@@ -11,13 +11,13 @@ export default function AlbumSelection() {
         <Grid container>
           <Grid item xs={6}>
             {/* <Card sx={{ maxWidth: 345 }}> */}
-            <Card component={Link} noLinkStyle href="/horizontal">
+            <Card component={Link} noLinkStyle href="/horizontal-colour" >
               <CardActionArea>
                 <CardMedia
                   component="img"
                   height="280"
-                  image="https://i.imgur.com/m55Y9oK.jpg"
-                  alt="green iguana"
+                  image="https://i.imgur.com/CGp43vY.jpg"
+                  alt="Edinburgh Castle"
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -32,13 +32,13 @@ export default function AlbumSelection() {
           </Grid>
           <Grid item xs={6}>
             {/* <Card sx={{ maxWidth: 345 }}> */}
-            <Card component={Link} noLinkStyle href="/vertical">
+            <Card component={Link} noLinkStyle href="/vertical-colour">
               <CardActionArea>
                 <CardMedia
                   component="img"
                   height="280"
-                  image="https://i.imgur.com/NNRVtTL.jpg"
-                  alt="green iguana"
+                  image="https://i.imgur.com/WJLGGVq.jpg"
+                  alt="Royal mile"
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -53,13 +53,13 @@ export default function AlbumSelection() {
           </Grid>
           <Grid item xs={6}>
             {/* <Card sx={{ maxWidth: 345 }}> */}
-            <Card component={Link} noLinkStyle href="/horizontal">
+            <Card component={Link} noLinkStyle href="/horizontal-bandw">
               <CardActionArea>
                 <CardMedia
                   component="img"
                   height="280"
-                  image="https://i.imgur.com/Cd5Q7yg.jpg"
-                  alt="green iguana"
+                  image="https://i.imgur.com/OChC4Uq.jpeg"
+                  alt="cool bird"
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -74,13 +74,13 @@ export default function AlbumSelection() {
           </Grid>
           <Grid item xs={6}>
             {/* <Card sx={{ maxWidth: 345 }}> */}
-            <Card component={Link} noLinkStyle href="/vertical">
+            <Card component={Link} noLinkStyle href="/vertical-bandw" >
               <CardActionArea>
                 <CardMedia
                   component="img"
                   height="280"
-                  image="https://i.imgur.com/0MUVoG3.jpg"
-                  alt="green iguana"
+                  image="https://i.imgur.com/LXJnCvE.jpg"
+                  alt="Edinburgh office"
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">

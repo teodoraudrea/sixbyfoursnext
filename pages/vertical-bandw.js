@@ -1,17 +1,16 @@
 import * as React from 'react';
-import Container from '@mui/material/Container';
-import HorizontalAlbum from '../src/Components/HorizontalAlbum';
-import NavBar from '../src/Components/NavBar';
 import Copyright from '../src/Copyright';
+import VerticalAlbumBandW from '../src/Components/VerticalAlbumBandW';
+import NavBar from '../src/Components/NavBar';
 import { Box } from '@mui/material';
 
-export default function Horizontal() {
+export default function Vertical() {
   return (
     <>
     <NavBar/>
     <Box sx={{ my: 4 }} sx={{ marginTop: '80px', marginBottom: '40px'}} >
-        <HorizontalAlbum />
-      </Box>
+        <VerticalAlbumBandW />
+    </Box>
     <Copyright/>
     </>
   );
