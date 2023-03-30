@@ -7,7 +7,7 @@ export default function HorizontalAlbumColour() {
       <Grid container spacing={2}>
         <Grid item xs={1}></Grid>
         <Grid item xs={10}>
-          <ImageList variant="masonry" cols={2} gap={4}>
+          <ImageList variant="masonry" cols={2} gap={0}>
             {bandwLandscapeAlbum.map((item) => (
               <ImageListItem key={item.img}>
                 <img
